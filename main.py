@@ -7,23 +7,19 @@ if __name__ == '__main__':
     objArbol.insertar(objArbol.getRaiz(), 48)
     objArbol.insertar(objArbol.getRaiz(),60)
     objArbol.insertar(objArbol.getRaiz(), 55)
-    objArbol.postOrder(objArbol.getRaiz())
-    print(objArbol.Camino(objArbol.getRaiz(),50,55))
-
-
-    '''if objArbol.Padre(45, 50):
+   
+    if objArbol.Padre(45, 50):
         print('es padre')
     else:
         print('No es padre')
-    print(objArbol.Nivel(objArbol.getRaiz(), 45))
+ 
     print('Altura del arbol: {}' .format(objArbol.Altura(objArbol.getRaiz())))
-    #objArbol.suprimir(objArbol.getRaiz(), 50)
-    #objArbol.preOrder(objArbol.getRaiz())
     if objArbol.Hoja(60):
-        print('si')
+        print('Es hoja')
     else:
-        print('no')
+        print('no es hoja')
     print('Antes de suprimir')
     objArbol.preOrder(objArbol.getRaiz())
     objArbol.suprimir(objArbol.getRaiz(), 55)
-    print('Despues de suprimir')'''
+    print('Despues de suprimir')
+    objArbol.preOrder(objArbol.getRaiz())
